@@ -1,0 +1,122 @@
+/*---------------------------------------
+  TOPICS              
+-----------------------------------------*/
+.featured-section {
+  background-color: var(--secondary-color);
+  border-radius: 0 0 100px 100px;
+  padding-bottom: 100px;
+}
+
+.featured-section .row {
+  position: relative;
+  bottom: 100px;
+  margin-bottom: -100px;
+}
+
+.custom-block {
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.custom-block:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.custom-block > a {
+  width: 100%;
+}
+
+.custom-block-image {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 35px;
+}
+
+.custom-block .rounded-pill {
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 20px;
+}
+
+.custom-block-overlay {
+  height: 100%;
+  min-height: 350px;
+  padding: 0;
+}
+
+.custom-block-overlay > a {
+  height: 100%;
+}
+
+.custom-block-overlay .custom-block-image {
+  border-radius: var(--border-radius-medium);
+  display: block;
+  height: 100%;
+  margin-top: 0;
+}
+
+.custom-block-overlay-text {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.social-share {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 20px 35px;
+}
+
+.social-share .bi-bookmark {
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+}
+
+.social-share .bi-bookmark:hover {
+  color: var(--secondary-color);
+}
+
+.bg-design {
+  background-color: #00b0ff;
+}
+
+.bg-graphic {
+  background-color: #00bfa6;
+}
+
+.bg-advertising {
+  background-color: #f50057;
+}
+
+.bg-finance {
+  background-color: #536dfe;
+}
+
+.bg-music {
+  background-color: #f9a826;
+}
+
+.bg-education {
+  background-color: #00bfa6;
+}
+
+/*---------------------------------------
+    TOPICS               
+  -----------------------------------------*/
